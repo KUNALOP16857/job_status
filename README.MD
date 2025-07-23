@@ -19,7 +19,6 @@ The app features a clean, responsive UI with intuitive navigation. Whether you'r
 - 🔐 Secure user authentication via JWT
 - 📝 Create, update, and delete job listings
 - 🚀 Custom job status pipeline
-- 📸 Upload job media using Cloudinary
 - 📊 Graphical insights via Recharts
 - 📱 Fully responsive layout (mobile + desktop)
 
@@ -39,14 +38,13 @@ The app features a clean, responsive UI with intuitive navigation. Whether you'r
 - Node.js
 - Express.js
 - MongoDB + Mongoose
-- Cloudinary API (for image upload)
 - JSON Web Tokens (for authentication)
 
 ---
 
 ## 🌐 Live Demo
 
-Try the live app here 👉 [Indago Job Tracker](https://job-status-eight.vercel.app)
+Try the live app here 👉 [Indago Job Tracker](https://indago-job.netlify.app)
 
 ---
 
