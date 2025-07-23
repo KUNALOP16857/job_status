@@ -1,35 +1,33 @@
-
 ![Logo](https://res.cloudinary.com/die12ywpb/image/upload/v1677817637/indago/Minimalist_Brown_Music_Logo_fInstagrfam_stguyl.png)
 
-
 # Indago - A Job Tracking Web App
-Indago is a web-based job tracking application that allows job seekers to easily keep track of their job search progress.
 
-The app allows users to add jobs they have applied to, track the status of each application, and receive updates on any changes to the status of the job.
+**Indago** is a web-based job tracking application designed to help job seekers organize and streamline their job search process.
 
-With Indago, job seekers can quickly and easily see which jobs they have applied to, what stage the application is in, and whether or not they have been accepted or rejected. This eliminates the need to search through emails or keep a separate spreadsheet, making the job search process less overwhelming and more organized.
+With Indago, users can:
+- Add job applications,
+- Track current statuses,
+- View progress visually via graphs,
+- And keep everything in one place without spreadsheets or messy notes.
 
-The app features a clean, user-friendly interface that is easy to navigate.
+The app features a clean, responsive UI with intuitive navigation. Whether you're applying to one job or fifty, Indago simplifies your job-hunting journey.
 
-Indago is a must-have tool for anyone actively searching for a job. Try it now and take control of your job search!
+---
 
-The frontend of the app is built with ReactJS, utilizing the Redux Toolkit for state management and TailwindCSS for styling. Data is fetched using the Axios library.
+## ✨ Features
 
-The backend is built with NodeJS and ExpressJS, and media uploads are handled by Cloudinary.
+- 🔐 Secure user authentication via JWT
+- 📝 Create, update, and delete job listings
+- 🚀 Custom job status pipeline
+- 📸 Upload job media using Cloudinary
+- 📊 Graphical insights via Recharts
+- 📱 Fully responsive layout (mobile + desktop)
 
+---
 
-## Features
+## 🛠️ Tech Stack
 
-- 🔐 User authentication and authorization with JWT
-- 📝 Create, read, update, and delete job listings
-- 🔍 Track the progress of job applications status with a customized job pipeline
-- 🖼️ Upload images of job listings using Cloudinary API
-- 📊 Visualize job application data with Recharts graphs
-- 📲 Responsive design
-
-## Tech Stack
-
-**Frontend:** 
+### Frontend
 - React
 - Redux Toolkit
 - React Router
@@ -37,77 +35,45 @@ The backend is built with NodeJS and ExpressJS, and media uploads are handled by
 - Axios
 - Recharts
 
-**Backend:** 
-- [Own REST API deployed on Railway ](https://github.com/themodernmonk7/Indago-job-tracking-web-API)
+### Backend
 - Node.js
 - Express.js
-- MongoDB
-- Mongoose
+- MongoDB + Mongoose
+- Cloudinary API (for image upload)
+- JSON Web Tokens (for authentication)
 
-**Image Upload:** 
-- Cloudinary API
+---
 
-**Data Storage:** 
-- MongoDB
+## 🌐 Live Demo
 
-**User Authentication:**
-- JSON Web Tokens (JWT)
-## API
+Try the live app here 👉 [Indago Job Tracker](https://job-status-eight.vercel.app)
 
-You can access the REST API backend of the Indago web app by following this git repo link: [Indago REST API](https://github.com/themodernmonk7/Indago-job-tracking-web-API)
+---
 
+## 🚀 Setup & Deployment
 
-## Demo
+### Clone the project
+```bash
+git clone https://github.com/KUNALOP16857/job_status.git
+cd job_status
 
-You can access the live version of the Indago web app by following this link [Indago](https://indago-job.netlify.app)
+## Install Dependencies 
+npm install
 
-
-## Screenshots
-
-**Mobile**
-
-![App Screenshot](https://res.cloudinary.com/die12ywpb/image/upload/v1677816631/indago/iphone-multiple-screens-mockup_iklivm.png)
-## Deployment
-
-- The frontend of the app is deployed on Netlify, a platform for easily deploying and hosting web applications.
-
-- The backend of the app is deployed on Railway, a platform for easily deploying and scaling Node.js applications.
+##Run
+npm run dev
 
 
-## Roadmap
+##About Me
 
-- Working on Landing page ⏳
+Hi, I'm Krishan Dhankhar – a passionate full-stack developer with a focus on building clean and useful tools for real-world problems.
 
-- Email confirmation ⏳
-
-- Reset/Forgot password ⏳
-
-- Light/Dark mode ⏳
-
-## License
-Indago is licensed under the MIT License. See the LICENSE file for more information.
-[MIT](LICENSE)
+My Key Skills
+Frontend: React, Redux, TailwindCSS
+Backend: Node.js, Express.js
+Database: MongoDB
+DevOps: Vercel
+Passionate about: Automation, UX-first design, Productivity tools
 
 
-## Feedback
-
-Please let us know your thoughts on my app by sending any suggestions or feedback to kumaravishek2015@gmail.com.
-
-
-## 🚀 About Me
-- Full-stack developer with experience in modern web development
-- Proficient in React and JavaScript for frontend development
-- Skilled in Redux Toolkit for state management in frontend applications
-- Experienced in Node.js and Express.js for backend development
-- Ability to create efficient and high-performance server-side applications
-- Proficient in using TailwindCSS for creating visually appealing and responsive user interfaces
-- Passionate about building user-friendly and efficient applications using cutting-edge technologies
-- Always eager to learn new technologies and improve skills to provide the best solutions to clients.
-
-
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://themodernmonk7.vercel.app)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/themodernmonk7)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/themodernmonk7)
-[![Peerlist](https://github-readme-badge.peerlist.io/api/themodernmonk7?style=social)](https://peerlist.io/themodernmonk7)
 
